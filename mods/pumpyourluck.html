@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta http-equiv="Content-type" content="text/html; charset=utf-8"/>
+      <title>Pump Your Luck</title>
+      <link rel="stylesheet" href="css/reset.css" type="text/css" media="screen" charset="utf-8"/>
+      <link rel="stylesheet" href="css/main.css" type="text/css" media="screen" charset="utf-8"/>
+      <script type="text/javascript" charset="utf-8" src="js/jquery-2.1.3.min.js"></script>
+      <script type="text/javascript" charset="utf-8" src="js/pumpyourluck.js"></script>
+    </head>
+    <body>
+      <div class="container">
+        <ul id="gameboard">
+        </ul>
+        
+        <span class="button" id="pumpbutton-1">
+            <span class="button-text">
+                PUMP <br/>
+                YOUR <br/>
+                LUCK 
+            </span>
+        </span>
+        <span class="button-disabled" id="pumpbutton" style="display:none;">
+            <span class="button-text">
+                PUMP <br/>
+                YOUR <br/>
+                LUCK 
+            </span>
+        </span>
+    
+   <span class="prize">0</span>
+  
+        <ul class="game-status">
+            <li>
+                 <form name="myForm" onsubmit="return validateForm()" method="post">
+                    E-mail: <input type="text" name="email" id="email"><br>
+                    <input type="submit" id="verify">
+                </form>
+            </li>
+           
+            <li>
+                Turns Left
+                <span class="turns">0</span>
+            </li>
+            <li>
+                Whammies
+                <span class="whammy red">0</span>
+            </li>
+            <li>
+                Current ScOre
+                <span class="score">0</span>
+            </li>
+            <li>
+                <input class='reset' type="submit" value="Reset" /> 
+            </li>
+          </ul>
+        </div>
+      </div>
+    </body>
+   
+    
+</html>

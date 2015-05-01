@@ -1,0 +1,250 @@
+/* Reset -------------------------------------------------- */
+html,img { margin:0;padding:0;border:0; font-family: "Flaticon";}
+body , ul, li { margin: 0; padding: 0;border: 0;font-family: "Flaticon";}
+
+/* Global -------------------------------------------------- */
+@font-face {
+	font-family: "Flaticon";
+	src: url("../fonts/dinpro-bold.eot");
+	src: url("../fonts/dinpro-bold.eot#iefix") format("embedded-opentype"),
+	url("../fonts/dinpro-bold.woff") format("woff"),
+	url("../fonts/dinpro-bold.ttf") format("truetype"),
+	url("../fonts/dinpro-bold.svg") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+.wrapper { width:100%;}
+.clear { clear:both; }
+.hideme{
+
+	display:none !important;
+}
+.onlyforbuttons
+{
+  visibility: hidden;
+}
+.hideforredeem
+{
+	visibility:hidden;
+}
+#verify
+{
+   position: relative;
+   z-index:0;
+	    margin-top: -160px;
+  margin-left: -25px;
+}
+
+#comebacktogame
+{position: relative;
+   z-index:0;}
+#putemail
+{
+position: relative;
+   z-index:10;
+	margin-bottom: 42px;
+  margin-left: -229px;
+}
+.pumpbuttonforgame
+{
+
+  margin-left: -151px;
+  margin-top: 4px;
+  width: 79%;
+}
+.video-content{  margin-top: 10px; margin-left: 8px;  width: 97%;}
+.content {}
+.content .video-bg {}
+.content .video-bg video{ width:100%;}
+.content .content-inner { position:absolute; top:0; right:0; left:0; bottom:0; margin:auto; width:785px; height:380px;}
+.content .content-inner .content-top { height:115px;}
+.content .content-inner .content-top ul { margin:0; padding:0; position:relative;}
+.content .content-inner .content-top ul li { float:left; list-style:none; margin-right:12px; margin-bottom:4px;opacity: 1}
+.content .content-inner .content-top ul li.current { opacity: 1 !important;}
+.content .content-inner .content-top ul li.hidden { visibility:hidden;}
+.content .content-inner .content-top ul li:last-child { margin:0;}
+.content .center-section { background:url(../img/centerbg.png) center center no-repeat; background-size:contain; height:261px; width:506px; float:left; text-align:center; margin:0 8px; position:absolute; top:110px; right:0; left:113px; }
+.content .center-section a { width:100%; display:block; margin:20px 0 10px 0;}
+.content .center-section img { display:inline;}
+
+#facebookbutton
+{
+  margin: -44px 0 10px 0 !important;}
+  #twitterbutton
+{
+  margin: -44px 0 10px 0 !important;}
+/* welocme-page -------------------------------------------------- */
+
+.welcome-detail { padding: 0px 0px 0px 9px; }
+.welcome-detail h1 { font-size:23px; text-align:left; font-weight:bold; color:#000; line-height:36px; }
+ .welcome-top { padding:0 0 0 2px; }
+.welcome-top-left { width:544px; float:left;  margin-top: -40px; }
+.welcome-top-right {  width: 211px;
+  float: right;
+        margin-bottom: -73px;
+  margin-top: -78px;}
+.welcome-top1 { padding:0 0 0px 0; }
+.welcome-top1 h3 {   font-size: 18px; margin-top: 27px;text-align:left; font-weight:bold; color:#000; }
+.welcome-top1 p { text-align:left; font-weight:normal; color:#000;    font-size: 13px;  margin-bottom: -23px;
+  margin-top: -23px;}
+.welocm-below { }
+.welocm-below span {   margin-left: -169px;font-size:14px; text-align:left; font-weight:600; color:#000; }
+
+/* email-page -------------------------------------------------- */
+.email-detail { padding:56px 122px 144px 72px; }
+.email-detail  h1 { font-size:38px; text-align:left; font-weight:bold; color:#000; line-height:36px; padding:0 0 45px 0; text-align:center; }
+.email-top { }
+.email-top-left { width:544px; float:left;  padding:76px 0 0 0; }
+.email-top-left input[type="text"]{ 
+	 line-height: 32px;
+  background: #fff;
+  border: 1px solid #000;
+  width: 287px; padding:0 25px; box-sizing:border-box; margin-bottom:40px; font-size:18px; color:#000;}
+.email-top-left p {  font-size: 18px;
+  color: #000;
+  bottom: 0px;
+  position: relative;
+  top: 45px;
+  left: -24px;}
+.winning-top { }
+.email-top-right { width:280px; float:right;}
+/*result page -------------------------------------------------- */
+.ReebokZPumps{ background: url(../img/PNGs/ReebokZPumps.png)top left no-repeat !important; background-size: 98% 56% !important;
+  padding-left: 139px !important;
+  margin-left: 7px !important;
+  margin-top: 15px !important;}
+  .ReebokSweatBand{ background: url(../img/PNGs/ReebokSweatband.png)top left no-repeat !important; background-size: 98% 56% !important;
+  padding-left: 139px !important;
+  margin-left: 7px !important;
+  margin-top: 15px !important;}
+.ReebokCinchbag{background: url(../img/PNGs/ReebokCinchbag.png)top left no-repeat !important;
+background-size: 98% 56% !important;
+  padding-left: 139px !important;
+  margin-left: 7px !important;
+  margin-top: 15px !important;}
+  .ReebokTrip{background: url(../img/PNGs/TriptoJonJones.png)top left no-repeat !important;
+background-size: 98% 56% !important;
+  padding-left: 139px !important;
+  margin-left: 7px !important;
+  margin-top: 15px !important;}
+.Reebokpercent{background: url(../img/PNGs/20_Off.png)top left no-repeat !important;
+background-size: 98% 56% !important;
+  padding-left: 139px !important;
+  margin-left: 7px !important;
+  margin-top: 15px !important;}
+.ReebokWaterBottle{background: url(../img/PNGs/ReebokWaterbottle.png)top left no-repeat !important;
+background-size: 98% 56% !important;
+  padding-left: 139px !important;
+  margin-left: 7px !important;
+  margin-top: 15px !important;}
+  .ReebokIphoneCase{background: url(../img/PNGs/ReebokiPhoneCase.png)top left no-repeat !important;
+background-size: 98% 56% !important;
+  padding-left: 139px !important;
+  margin-left: 7px !important;
+  margin-top: 15px !important;}
+.ReebokGiftcard{background: url(../img/PNGs/ReebokGiftcard.png)top left no-repeat !important;
+background-size: 98% 56% !important;
+  padding-left: 139px !important;
+  margin-left: 7px !important;
+  margin-top: 15px !important;}
+.Reebokbetterlucknext{background: url(../img/PNGs/BetterLuckNextTime.png)top left no-repeat !important;
+background-size: 98% 56% !important;
+  padding-left: 139px !important;
+  margin-left: 7px !important;
+  margin-top: 15px !important;}
+.Reeboksunglasses{background: url(../img/PNGs/ReebokSunglasses.png)top left no-repeat !important;
+background-size: 98% 56% !important;
+  padding-left: 139px !important;
+  margin-left: 7px !important;
+  margin-top: 15px !important;}
+.winning-outer {  background: url(../img/ReebokSunglasses.png)top left no-repeat;
+  background-size: 98% 56%;
+  padding-left: 139px;
+  margin-left: 7px;
+  margin-top: 15px; }
+.winning-outer-Zpumps {   background: url(../img/ReebokZPumps.png)top left no-repeat;
+  background-size: 99% 43%;
+  padding-left: 139px;
+  margin-left: 5px;
+  margin-top: 14px; }
+.winning-outer .email-detail { padding-bottom:66px; padding-left:0;}
+.winning-outer .email-top-left { width:400px;}
+.winning-outer-Zpumps .winning-top-left a { line-height: 48px;
+  padding: 0 26px;
+  color: #B41D2A;
+    margin-left: -241px;
+  text-decoration: none;
+  background: #000;
+  display: inline-block;
+  font-size: 12px;}
+.winning-outer .winning-top-left a { line-height: 48px;
+  padding: 0 26px;
+  position: relative;
+  z-index:100;
+  color: #B41D2A;
+    margin-left: -241px;
+  text-decoration: none;
+  background: #000;
+  display: inline-block;
+  font-size: 12px;}
+.winning-outer .winning-top-right {margin-top: -132px;}
+.winning-outer .winning-top-right .pumpitagain p {   text-align: left;
+  float: left;
+  font-size: 18px;
+  margin-left: -343px;
+  line-height: 0px;
+  color: #000;
+  position: relative;
+  top: -96px;
+  right: -178px;}
+.winning-detail { padding:6px 176px 105px 34px; }
+.winning-top-left{ 
+	 }
+
+
+
+/*order page -------------------------------------------------- */
+.order-page { padding:0;}
+.order-page .email-detail { padding:15px;}
+.order-page h1 { margin:0; padding:0; font-size: 22px; line-height: 22px }
+.order-page p { text-align:center; padding-bottom:5px; margin: 0; }
+.order-page input[type=text]{ line-height:30px; background:#fff; border:1px solid #000; width:228px; padding:0 10px; box-sizing:border-box; margin-bottom:5px; font-size:14px; color:#000;
+display:inline-block; margin-right:10px;}
+.order-page input[type=text].last-name { margin-right:0;}
+.order-page input[type=text].street-address { width:473px;}
+.order-page input[type=text].zip-code { width:115px; margin-right:0;}
+.order-page select {height:32px; background:#fff; border:1px solid #000; width:449px; padding:0 25px; box-sizing:border-box; margin-bottom:10px; font-size:18px; color:#000;
+display:inline-block; margin-right:10px;}
+.order-page select.state { width:100px; padding: 0 14px; font-size: 14px; margin-bottom: 5px; }
+.order-page select.shoe-size { width:100px; padding: 0 14px; font-size: 14px; margin-bottom: 5px; }
+.content .order-page  a { line-height:32px; padding:0 20px; color:#B41D2A; text-decoration:none; background:#000; display:inline-block; font-size:12px; float:right; width: 22%; margin: 0px 2px 0 0; }
+/*thanx page -------------------------------------------------- */
+
+.thanx-content {text-align:center;}
+.thanx-content .thanx-detail { padding:0 0 0 0;}
+.thanx-content h1 { margin-bottom: 15px;}
+.thanx-content h3 { margin-bottom:21px; font-size:18px;}
+.thanx-content a { line-height:92px; padding:0 26px; color:#B41D2A; text-decoration:none; background:#000; display:inline-block; font-size:34px; margin-top:34px;}
+.thanx-detail a{  width: 86% !important;
+  display: block !important;
+  margin: -7px 35px 92px 9px !important;
+}
+/*social page -------------------------------------------------- */
+
+.social-content {}
+.social-content h1 { margin:0; padding:13px 0 17px 0;}
+.social-content p{ text-align:center; padding-bottom:26px;}
+.social-content ul {}
+.social-content ul li { display:inline-block; list-style:none; margin-left:98px;}
+@media only screen and (max-width :1200px) {
+ .content .content-inner { height:100%; padding:80 0 0 0;}
+}
+
+
+
+
+
+
+
+
+

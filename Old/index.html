@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Pump Your Luck</title>
+<script src="js/jquery-1.11.2.min.js"></script>
+<link rel="stylesheet" href="css/styles.css" />
+<script type="text/javascript">
+
+jQuery(function($){
+var counter2 = 0;
+
+$('.firstpump, button.pumpbutton').click(function(){
+  // Start a polling loop with a counter.
+  $.doTimeout( 250, function(){
+    $('.shuffletiles').shuffle();
+    if ( counter2 < 50 ) { return true; } // Poll.
+  });
+});
+});
+
+
+jQuery(function($){
+    // a series of paragraphs
+    $('.firstpump').click(function(){
+        $('.welcome-box').hide('fast');
+        $('.pump-button-container').show('fast');
+    });
+});
+
+(function($){
+    $.fn.shuffle = function() {
+        return this.each(function(){
+            var items = $(this).children().clone(true);
+            return (items.length) ? $(this).html($.shuffle(items)) : this;
+        });
+    }  
+    $.shuffle = function(arr) {
+        for(var j, x, i = arr.length; i; j = parseInt(Math.random() * i), x = arr[--i], arr[i] = arr[j], arr[j] = x);
+        return arr;
+    }
+})(jQuery);
+</script>
+</head>
+<body>
+
+<div class="pump-container" id="pump-container">
+	<div class="shuffletiles">
+	<div class="tile-block"><img src="images/tiles/airplane.png" /></div>
+	<div class="tile-block"><img src="images/tiles/blank.png" /></div>
+	<div class="tile-block"><img src="images/tiles/blaster.png" /></div>
+	<div class="tile-block"><img src="images/tiles/headband_blue.png" /></div>
+	<div class="tile-block"><img src="images/tiles/kendrik_lamar.png" /></div>
+	<div class="tile-block"><img src="images/tiles/20off.png" /></div>
+	</div>
+	<div class="left-side shuffletiles">
+	<div class="tile-block"><img src="images/tiles/sunglass.png" /></div>
+	<div class="tile-block"><img src="images/tiles/the_pump.png" /></div>
+	</div>
+	<div class="inside-container">
+	<div class="welcome-box">
+	<form method="post" action="index2.php">
+		<div><label for="email">Enter your email below</label></div>
+		<div><input type="email" name="email" class="email" placeholder="user@email.com" /></div>
+		<div><input type="button" name="submit" value="Pump My Luck!" class="firstpump" /></div>
+	</form>
+	</div>
+	<div class="pump-button-container"><button class="pumpbutton"></button>
+	<span><img src="images/your-luck.png" /></span>
+	</div></div>
+	<div class="right-side shuffletiles">
+	<div class="tile-block"><img src="images/tiles/ufc_pump.png" /></div>
+	<div class="tile-block"><img src="images/tiles/waterbottle.png" /></div>
+	</div>
+	<div class="shuffletiles">
+	<div class="tile-block"><img src="images/tiles/blank.png" /></div>
+	<div class="tile-block"><img src="images/tiles/headband_blue.png" /></div>
+	<div class="tile-block"><img src="images/tiles/reebok_logo.png" /></div>
+	<div class="tile-block"><img src="images/tiles/pumpagain.png" /></div>
+	<div class="tile-block"><img src="images/tiles/airplane.png" /></div>
+	<div class="tile-block"><img src="images/tiles/kendrik_lamar.png" /></div>
+	</div>
+</div>
+
+</body>
+</html>

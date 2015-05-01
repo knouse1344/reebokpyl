@@ -1,0 +1,16 @@
+html,body {margin: 0; padding: 0;background: #000;}
+a, button {outline: none;}
+
+.pump-container {max-width: 890px; margin: 50px auto;overflow: hidden;}
+.tile-block {display: inline-block; float: left;}
+.tile-block img {max-width: 135px; width: 135px; margin: 5px; cursor: pointer;}
+.inside-container {width: 574px; height: 295px; margin: 0 3px 0 0; background: url('../images/center-background.jpg'); display: inline-block; float: left;}
+.pump-button-container {text-align: center; display: none;}
+.pump-button-container span {width: 100%; display: block;}
+.pump-button-container span img {width: 275px;}
+.left-side, .right-side {width: 149px; float: left;}
+.right-side {text-align: right;}
+.pumpbutton {background: url('../images/pump-button.png'); width: 175px; height: 175px; border: 0; background-size: 175px 175px; cursor: pointer; margin: 25px 0 20px;}
+.welcome-box {padding: 80px;text-align: center;font-size: 40px;}
+.welcome-box div {margin-bottom: 20px;}
+.welcome-box input {font-size: 20px}
