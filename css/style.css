@@ -156,10 +156,7 @@ background-size: 98% 56% !important;
   margin-left: 7px !important;
   margin-top: 15px !important;}
 .winning-outer {  background: url(../img/ReebokSunglasses.png)top left no-repeat;
-  background-size: 98% 56%;
-  padding-left: 139px;
-  margin-left: 7px;
-  margin-top: 15px; }
+  background-size: cover; height: 100%; padding: 1em; box-sizing: border-box; border: 2px solid #fff; }
 .winning-outer-Zpumps {   background: url(../img/ReebokZPumps.png)top left no-repeat;
   background-size: 99% 43%;
   padding-left: 139px;
